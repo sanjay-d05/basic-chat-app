@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 import { setOnlineUsers } from "@/store/socketSlice";
 import { addNewMessage } from "@/store/chatSlice";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://basic-chat-app-server.onrender.com";
 let socket = null;
 
 export const connectSocket = (userId, dispatch) => {
