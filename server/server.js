@@ -15,7 +15,7 @@ const CLIENT_URI = process.env.CLIENT_URI;
 const allowedOrigins = [
     CLIENT_URI,
     'http://localhost:3000',
-    'production url'
+    'https://basic-chat-app-client.onrender.com'
 ];
 
 /* middleware */
